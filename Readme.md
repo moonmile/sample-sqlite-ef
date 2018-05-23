@@ -1,11 +1,18 @@
-# RmClient
+# Sample SQLite EntityFramework
 
-Redmine Client
+- Xamarin.Forms 
+- .NET Standard 
+- Microsoft.EntityFrameworkCore.Sqlite
 
-- RmClient : WPF Client Application
-- RmClient.Console : Windows Console Application
-- RmClient.Console.Core : .NET Core version Console Application
-- RmClient.Lib : Redmine Client Library
+を組み合わせたサンプルプログラム
+Android 内で SQLite を利用する。
+
+- [Xamarin.Froms+.NET Standardでローカルな SQLite データベースを使う](http://www.moonmile.net/blog/?p=9150)
+
+- SampleSQLiteEF.XF : Xamarin.Forms の共有プロジェクト（.NET Standard)
+- SampleSQLiteEF.XF.Android : Android プロジェクト
+- SQLiteEF.Test : 読込テスト(.NET Core)
+- MySQL2SQLite : MySQL から SQLite へのコンバートサンプル
 
 # Author 
 
